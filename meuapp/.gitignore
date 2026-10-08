@@ -1,0 +1,26 @@
+# Ambiente Virtual (NÃO deve ir para o Git)
+.venv/
+venv/
+env/
+
+# Arquivos de Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Banco de Dados Local (SQLite)
+*.sqlite3
+db.sqlite3
+
+# Arquivos de Configuração da IDE (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# Variáveis de Ambiente e Chaves Secretas
+.env
+.env.local
+
+# Coleta de Arquivos Estáticos e Mídias (Django)
+/staticfiles/
+/media/
